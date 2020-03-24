@@ -195,7 +195,7 @@ def main():
         nodesVisited = 0
         output_list.append("Graph " + str(i + 1) + ": Score: "
                            + str(minimax(tree_list[i], -INFINITY, INFINITY))
-                           + "; Leaf Nodes Examined: " + str(nodesVisited))
+                           + "; Nodes Examined: " + str(nodesVisited))
 
     if not output_list:
         raise IOError("No output given")
